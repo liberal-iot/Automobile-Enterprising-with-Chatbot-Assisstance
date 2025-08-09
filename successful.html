@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Success!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 100px;
+    }
+
+    h2 {
+      color: #007bff;
+    }
+
+    p {
+      color: #333;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Success!</h2>
+    <p>Your action was successful.</p>
+    <button onclick="redirectToIndex()">Go to Home Page</button>
+  </div>
+
+  <script>
+    function redirectToIndex() {
+      window.location.href = "index.html"; // Replace "index.php" with the actual path to your index page
+    }
+  </script>
+</body>
+</html>
