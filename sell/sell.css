@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 9;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    align-items: center;
+}
+
+input, button {
+    margin: 5px;
+    padding: 10px;
+}
+
+#response {
+    margin-top: 20px;
+}
